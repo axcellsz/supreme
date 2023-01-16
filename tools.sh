@@ -59,4 +59,3 @@ yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 yellow "Dependencies successfully installed..."
 sleep 1
 clear
-
