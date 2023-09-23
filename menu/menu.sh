@@ -86,6 +86,9 @@ echo -e "\e[33m DATE & TIME   \e[0m:  $DATE2"
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "                 • SCRIPT MENU •                 "
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e " [\e[36m•v\e[0m] VMESS VIDIO"
+echo -e " [\e[36m•c\e[0m] SSH FLEX"
+echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " [\e[36m•1\e[0m] SSH Menu"
 echo -e " [\e[36m•2\e[0m] Vmess Menu"
 echo -e " [\e[36m•3\e[0m] Vless Menu"
@@ -105,6 +108,8 @@ echo -e   ""
 read -p " Select menu :  "  opt
 echo -e   ""
 case $opt in
+v) clear ; vmess-vidio ;;
+c) clear ; vmess-flex ;;
 1) clear ; m-sshovpn ;;
 2) clear ; m-vmess ;;
 3) clear ; m-vless ;;
