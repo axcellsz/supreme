@@ -496,6 +496,8 @@ wget -O trialvmess "https://raw.githubusercontent.com/axcellsz/supreme/master/xr
 wget -O renew-ws "https://raw.githubusercontent.com/axcellsz/supreme/master/xray/renew-ws.sh" && chmod +x renew-ws
 wget -O del-ws "https://raw.githubusercontent.com/axcellsz/supreme/master/xray/del-ws.sh" && chmod +x del-ws
 wget -O cek-ws "https://raw.githubusercontent.com/axcellsz/supreme/master/xray/cek-ws.sh" && chmod +x cek-ws
+wget -O vmess-vidio "https://raw.githubusercontent.com/axcellsz/supreme/master/xray/vmess-vidio.sh" && chmod +x vmess-vidio
+wget -O vmess-flex "https://raw.githubusercontent.com/axcellsz/supreme/master/xray/vmess-flex.sh" && chmod +x vmess-flex
 
 # vless
 wget -O add-vless "https://raw.githubusercontent.com/axcellsz/supreme/master/xray/add-vless.sh" && chmod +x add-vless
