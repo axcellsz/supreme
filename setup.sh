@@ -123,6 +123,7 @@ clear
 red "Tambah Domain Untuk XRAY"
 echo " "
 read -rp "Input domain kamu : " -e dns
+read -rp "Input ID Server :" idsq
     if [ -z $dns ]; then
         echo -e "
         Nothing input for domain!
@@ -134,6 +135,7 @@ read -rp "Input domain kamu : " -e dns
 	echo "$dns" > /etc/v2ray/domain
 	echo $dns > /root/domain
         echo "IP=$dns" > /var/lib/ipvps.conf
+	echo "${idsq}" >/etc/xray/idsq
     fi
     
 #install ssh ovpn
