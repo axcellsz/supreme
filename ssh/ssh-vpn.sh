@@ -252,7 +252,7 @@ echo 'Config file is at /usr/local/ddos/ddos.conf'
 echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 
 #install bbr dan optimasi kernel
-#wget https://raw.githubusercontent.com/adipatiarya/supreme/master/ssh/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+#wget https://raw.githubusercontent.com/axcellsz/supreme/master/ssh/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 
 # blokir torrent
 iptables -A FORWARD -m string --string "get_peers" --algo bm -j DROP
@@ -300,24 +300,24 @@ wget -O sshws "https://raw.githubusercontent.com/axcellsz/supreme/master/ssh/ssh
 wget -O m-system "https://raw.githubusercontent.com/axcellsz/supreme/master/menu/m-system.sh"
 wget -O m-domain "https://raw.githubusercontent.com/axcellsz/supreme/master/menu/m-domain.sh"
 wget -O add-host "https://raw.githubusercontent.com/axcellsz/supreme/master/ssh/add-host.sh"
-wget -O port-change "https://raw.githubusercontent.com/axcellsz/supreme/master/port/port-change.sh"
+#wget -O port-change "https://raw.githubusercontent.com/axcellsz/supreme/master/port/port-change.sh"
 wget -O certv2ray "https://raw.githubusercontent.com/axcellsz/supreme/master/xray/certv2ray.sh"
 wget -O m-webmin "https://raw.githubusercontent.com/axcellsz/supreme/master/menu/m-webmin.sh"
 wget -O speedtest "https://raw.githubusercontent.com/axcellsz/supreme/master/ssh/speedtest_cli.py"
-wget -O about "https://raw.githubusercontent.com/axcellsz/supreme/master/menu/about.sh"
+#wget -O about "https://raw.githubusercontent.com/axcellsz/supreme/master/menu/about.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/axcellsz/supreme/master/menu/auto-reboot.sh"
 wget -O restart "https://raw.githubusercontent.com/axcellsz/supreme/master/menu/restart.sh"
 wget -O bw "https://raw.githubusercontent.com/axcellsz/supreme/master/menu/bw.sh"
 wget -O m-tcp "https://raw.githubusercontent.com/axcellsz/supreme/master/menu/tcp.sh"
 
 # change port
-wget -O port-ssl "https://raw.githubusercontent.com/axcellsz/supreme/master/port/port-ssl.sh"
-wget -O port-ovpn "https://raw.githubusercontent.com/axcellsz/supreme/master/port/port-ovpn.sh"
-wget -O port-tr "https://raw.githubusercontent.com/axcellsz/supreme/master/port/port-tr.sh"
+#wget -O port-ssl "https://raw.githubusercontent.com/axcellsz/supreme/master/port/port-ssl.sh"
+#wget -O port-ovpn "https://raw.githubusercontent.com/axcellsz/supreme/master/port/port-ovpn.sh"
+#wget -O port-tr "https://raw.githubusercontent.com/axcellsz/supreme/master/port/port-tr.sh"
 
 
 wget -O xp "https://raw.githubusercontent.com/axcellsz/supreme/master/ssh/xp.sh"
-wget -O asu "https://raw.githubusercontent.com/axcellsz/supreme/master/asu.sh"
+#wget -O asu "https://raw.githubusercontent.com/axcellsz/supreme/master/asu.sh"
 wget -O sshws "https://raw.githubusercontent.com/axcellsz/supreme/master/ssh/sshws.sh"
 
 chmod +x menu
@@ -344,21 +344,21 @@ chmod +x sshws
 chmod +x m-system
 chmod +x m-domain
 chmod +x add-host
-chmod +x port-change
+#chmod +x port-change
 chmod +x certv2ray
 chmod +x m-webmin
 chmod +x speedtest
-chmod +x about
+#chmod +x about
 chmod +x auto-reboot
 chmod +x restart
 chmod +x bw
 chmod +x m-tcp
 
-chmod +x port-ssl
-chmod +x port-ovpn
-chmod +x port-tr
+#chmod +x port-ssl
+#chmod +x port-ovpn
+#chmod +x port-tr
 chmod +x xp
-chmod +x asu
+#chmod +x asu
 chmod +x sshws
 cd
 
