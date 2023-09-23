@@ -49,7 +49,7 @@ service cron restart
 clear
 echo -e "============================"
 echo -e "Username   : ${user}" | tee -a /etc/log-create-user.log
-echo -e "Server     : $idsq" | tee -a /etc/log-create-user.log
+echo -e "IDsvr      : $idsq" | tee -a /etc/log-create-user.log
 echo -e "Expired On : $exp" | tee -a /etc/log-create-user.log
 echo -e "Script By  : Axsystem" | tee -a /etc/log-create-user.log
 echo -e "============================"
