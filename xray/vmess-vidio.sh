@@ -31,7 +31,7 @@ VMESS_GRPC=`cat<<EOF
       {
       "v": "2",
       "ps": "${user} [unlimited] [${idsq}] ",
-      "add": "path.axnet.me",
+      "add": "experience.xeileenc.com",
       "port": "443",
       "id": "${uuid}",
       "aid": "0",
